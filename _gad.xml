@@ -1,0 +1,14 @@
+<!-- <Configuration>
+  <Add SourcePath="C:\dev\office2013\download" OfficeClientEdition="32">
+    <Product ID="ProPlusVolume">
+      <Language ID="de-de"/>
+  </Add>
+</Configuration> -->
+<Configuration>
+    <Add SourcePath="C:\dev\office2013\download" OfficeClientEdition="32" >
+        <Product ID="ProPlusVolume">
+     <!--   <Product ID="O365ProPlusRetail">-->
+            <Language ID="en-us" />
+        </Product>
+    </Add>
+</Configuration>

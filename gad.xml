@@ -1,0 +1,17 @@
+<Configuration>
+    <Add SourcePath="c:\dev\office2013Appv" OfficeClientEdition="32" >
+        <Product ID="ProPlusVolume">
+            <Language ID="de-de" />
+            <ExcludeApp ID="Groove" />
+            <ExcludeApp ID="Lync" />
+            <ExcludeApp ID="Outlook" />
+            <ExcludeApp ID="Project" />
+            <ExcludeApp ID="SharePointDesigner" />
+            <ExcludeApp ID="Visio" />
+        </Product>
+    </Add>
+    <!--  <Updates Enabled="TRUE" UpdatePath="\\Server\Share\Office\" /> -->
+    <Display Level="None" AcceptEULA="TRUE" />
+    <Logging Name="AllOffice2013_Setup.txt" Path="%temp%" />
+    <Property Name="AUTOACTIVATE" Value="1" />
+</Configuration>
